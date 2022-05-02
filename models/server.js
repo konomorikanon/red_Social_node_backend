@@ -60,7 +60,7 @@ class Server {
 
     }
     listen(){
-        this.server.listen(process.env.PORT , () => {
+        this.io.listen(process.env.PORT , () => {
             console.log("servido corriendo..." );
         })
 
